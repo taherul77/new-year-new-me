@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* heder bnr */
 header {
     background-image: url('images/banner/banner3.png');
@@ -22,14 +23,14 @@ header {
 
 .banner-description {
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0px 200px 8px 890px;
     margin-bottom: 10px;
 }
 
 .btn-primary {
     color: #005FAC;
-    font-size: 18px;
+    font-size: 16px;
     border: 0;
     margin-right: 200px;
     padding: 10px 30px;
@@ -38,6 +39,7 @@ header {
     background: #FFFFFF;
     border-radius: 5px;
 }
+
 /* failure of previous year  */
 .failure {
     background-color: antiquewhite;
@@ -81,6 +83,7 @@ header {
     width: 20px;
     margin-right: 5px;
 }
+
 /* my plan */
 .my-plan {
     text-align: center;
@@ -97,20 +100,20 @@ header {
     text-align: center;
     margin-bottom: 30px;
     font-size: 35px;
-   
+
 }
 
 .plan {
     background: #a0b5e3;
     box-shadow: 0px 6px 50px rgba(24, 8, 52, 0.06);
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 30px;
 }
 
 .plan-sub-title {
     font-weight: 700;
     font-size: 20px;
-    margin-top: px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -118,52 +121,112 @@ header {
     color: black;
 }
 
-/* my process */
-.my-process{
+/* service */
+
+.service-provide{
     text-align: center;
-    
     padding: 30px 150px;
+}
+.service-provide-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.service-provide-container {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.service-provide-image {
+    height: 500px;
+    width: 500px;
+
+}
+.service-images{
+    height: 70px;
+    width: 70px;
+    margin: 20px;
     
 }
-.process-container{
+.service{
+    margin-top: 20px;
+    
+}
+.service-title{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    
+}
+.service-description{
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+.service-dtls{
+    list-style: none;
+    border-radius: 8px;
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #a0b5e3;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+/* my process */
+.my-process {
+    text-align: center;
+
+    padding: 30px 150px;
+
+}
+
+.process-container {
     display: flex;
     gap: 24px;
     border-radius: 5px;
     justify-content: space-around;
 }
-.process-title{
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 35px;
-}
-.process-sub-title{
+
+
+
+.process-sub-title {
     font-weight: 700;
     font-size: 20px;
-    margin-top: px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
-.process-description{
+
+.process-description {
     color: black;
 }
 
-.process{
+.process {
     background: #a0b5e3;
     box-shadow: 0px 6px 50px rgba(15, 13, 13, 0.06);
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 30px;
 }
 
-.pro-img{
+.pro-img {
     align-items: center;
     margin-top: 100px;
 }
 
-.process-image{
+.process-image {
     height: 70px;
     width: 70px;
     margin-bottom: 10px;
 }
-.process-right-image{
+
+.process-right-image {
     height: 20px;
     width: 20px;
 }
@@ -203,8 +266,8 @@ header {
     background: #FFFFFF;
     border-radius: 5px;
 }
-/* footer */
-.footer {
+
+footer .footer {
     display: flex;
     padding: 50px 200px;
     gap: 150px;
@@ -243,7 +306,8 @@ header {
     color: #F8F8F8;
     margin-bottom: 30px;
 }
-.social-icon{
+
+.social-icon {
     padding-right: 10px;
 }
 
@@ -253,12 +317,14 @@ header {
     color: #F8F8F8;
     margin-bottom: 10px;
 }
-.footer-input input{
+
+.footer-input input {
     padding: 10px 20px;
     border-radius: 5px;
     margin-bottom: 5px;
 }
-.sub-btn{
+
+.sub-btn {
     background-color: #005FAC;
     color: #F8F8F8;
     padding: 10px 20px;
