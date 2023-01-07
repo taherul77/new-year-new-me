@@ -48,11 +48,14 @@ header {
     padding: 100px;
 
 }
+.failure-details{
+    padding-left: 70px;
+}
 
 .failure-title {
     padding-top: 300px;
     font-weight: 700;
-    padding-right: 300px;
+    padding-right: 250px;
     font-size: 40px;
     color: #151414;
     margin-bottom: 20px;
@@ -61,7 +64,7 @@ header {
 .failure-description {
     font-weight: 400;
     font-size: 16px;
-    padding-right: 200px;
+    padding-right: 150px;
     color: #444343;
     margin-bottom: 13px;
 
@@ -126,6 +129,7 @@ header {
 .service-provide{
     text-align: center;
     padding: 30px 150px;
+    
 }
 .service-provide-title{
     text-align: center;
@@ -136,6 +140,8 @@ header {
 .service-provide-container {
     display: flex;
     gap: 70px;
+    border-radius: 8px;
+    background-color: #a1abc0;
     align-items: center;
 }
 
@@ -145,8 +151,8 @@ header {
 
 }
 .service-images{
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 90px;
     margin: 20px;
     
 }
@@ -168,13 +174,13 @@ header {
     padding-right: 50px;
     margin-bottom: 20px;
 }
-.service-dtls{
+.service-details{
     list-style: none;
     border-radius: 8px;
     display: flex;
     font-weight: 700;
     font-size: 20px;
-    background-color: #a0b5e3;
+   
     align-items: center;
     margin-bottom: 10px;
 }
